@@ -1,0 +1,5 @@
+api_keys.json
+__pycache__/
+*.pyc
+venv/
+sessions.json
