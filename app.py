@@ -155,7 +155,7 @@ def chatbot_response(user_prompt, history):
     else:
         # Generate response using AI model
         try:
-            model = genai.GenerativeModel(model_name="models/gemini-1.0-pro")
+            model = genai.GenerativeModel(model_name="models/gemini-3-flash-preview")
             response = model.generate_content(full_prompt).text.strip()
             return response
         except Exception as e:
