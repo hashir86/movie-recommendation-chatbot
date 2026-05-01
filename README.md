@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🎬 AI Movie Recommendation Chatbot
 
 An intelligent entertainment chatbot built using Streamlit, TMDB API, and Google Generative AI.  
@@ -38,3 +39,6 @@ movie-recommendation-chatbot/
 │── sessions.json
 │── requirements.txt
 │── README.md
+=======
+# movie-recommendation-chatbot
+>>>>>>> b1abb0168eb7d1c0f094d7bc0e7192ffe998eda6

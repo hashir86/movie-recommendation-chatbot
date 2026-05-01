@@ -7,15 +7,13 @@ import re
 import google.generativeai as genai
 
 # Load API keys from JSON file
-def load_api_keys():
-    with open("api_keys.json", "r") as f:
-        return json.load(f)
-
-api_keys = load_api_keys()
+#def load_api_keys():
+#    with open("api_keys.json", "r") as f:
+#        return json.load(f)
 
 # API keys
-TMDB_API_KEY = api_keys["tmdb_api_key"]
-GENAI_API_KEY = api_keys["genai_api_key"]
+TMDB_API_KEY = st.secrets["tmdb_api_key"]
+GENAI_API_KEY = st.secrets["genai_api_key"]
 
 # Configure Google Generative AI
 genai.configure(api_key=GENAI_API_KEY)
